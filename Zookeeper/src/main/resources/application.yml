@@ -1,0 +1,7 @@
+curator:
+  nodes: 192.168.247.132:2181,192.168.247.133:2181,192.168.247.134:2181
+  connectionTimeoutMs: 2000
+  sessionTimeoutMs: 20000
+  retryPolicy:
+    baseSleepTimeMs: 30000
+    maxRetries: 3
